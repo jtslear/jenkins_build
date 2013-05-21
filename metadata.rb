@@ -7,8 +7,8 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.2.0'
 
 depends "apt"
-depends "postgresql"
-depends "jenkins"
+depends "postgresql", "> 2.4.1"
+depends "jenkins", "> 0.8.0"
 depends "nodejs"
 depends "phantomjs"
 depends "git"

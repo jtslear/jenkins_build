@@ -14,7 +14,6 @@ Requirements
 
 Attributes
 ----------
-TODO: List you cookbook attributes here.
 
 e.g.
 #### jenkins_build::default
