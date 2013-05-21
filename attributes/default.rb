@@ -1,5 +1,4 @@
-node.set['postgresql']['version'] = "9.2"
-
+node.set['postgresql']['version'] = "9.1"
 # Allow Postgres Password-less Authentication
 node.set['postgresql']['pg_hba'] = [
   {
@@ -57,6 +56,8 @@ node.default[:jenkins][:server][:plugins] = [
   'ruby-runtime',
   'rbenv',
   'campfire',
+  'github-api',
+  'ghprb',
 ]
 
 # Gem Requirements
